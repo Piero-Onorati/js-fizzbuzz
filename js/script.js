@@ -40,24 +40,53 @@
 
 // --------------------- BONUS -------------------- //
 
+// for (var i = 1; i <= 100; i++){
+
+//     if(i % 30 == 0) {
+//         console.log(i + ' ' + 'FizzBuzzBoolean');
+        
+//     } else if (i % 15 == 0) {
+//         console.log(i + ' ' + 'FizzBuzz');
+
+//     } else if (i % 6 == 0) {
+//         console.log(i + ' ' + 'FizzBoolean');
+        
+//     } else if (i % 5 == 0 ){
+//         console.log(i + ' ' + 'Buzz');
+        
+//     } else if (i % 3 == 0) {
+//         console.log(i + ' ' + 'Fizz');
+        
+//     } else{
+//         console.log(i)
+//     }
+// }
+
+
+// --------------------- BONUS (console-log a fine ciclo) -------------------- //
+var result;
+
 for (var i = 1; i <= 100; i++){
 
     if(i % 30 == 0) {
-        console.log(i + ' ' + 'FizzBuzzBoolean');
+        result = i + ' ' + 'FizzBuzzBoolean';
         
     } else if (i % 15 == 0) {
-        console.log(i + ' ' + 'FizzBuzz');
+        result = i + ' ' + 'FizzBuzz';
 
     } else if (i % 6 == 0) {
-        console.log(i + ' ' + 'FizzBoolean');
+        result = i + ' ' + 'FizzBoolean';
         
     } else if (i % 5 == 0 ){
-        console.log(i + ' ' + 'Buzz');
+        result = i + ' ' + 'Buzz';
         
     } else if (i % 3 == 0) {
-        console.log(i + ' ' + 'Fizz');
+        result = i + ' ' + 'Fizz';
         
     } else{
-        console.log(i)
+        result = i
     }
+    
+    console.log(result)
+    
 }
